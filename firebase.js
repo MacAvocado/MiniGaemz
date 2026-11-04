@@ -14,4 +14,4 @@ console.log('Firebase startet med: ', firebaseConfig.projectId)
 
 //vi får nu et firestore "objekt" som vi kan bruge til at kommunikere med firestore
 var db = firebase.firestore()
-console.log('forbindelse til firestore oprettet')
+console.log('forbindelse til firestore oprettet')   
