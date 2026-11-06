@@ -50,17 +50,19 @@ body,
     grid-template-rows: 1fr 1fr 1fr;
     height: 100%;
     width: 100%;
-    background-color: #005EB8;
+    place-items: center;
+}
+#page1 .bottom .right .leaderboard{
+    background-color: #4196e5;
+    border-radius: 1rem;
+    margin: 1rem;
+    height: 20vh;
+    width: 35vw;
 }
 
 #page1 .bottom .left{
     grid-template-rows: repeat(4, 1fr);
-    place-items: center;
     height: 100%;
     width: 100%;
 }
 
-.leaderboard{
-    color: #005EB8;
-    border-radius: 1rem;
-}
