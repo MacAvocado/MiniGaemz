@@ -46,7 +46,8 @@ body,
     background-image: url(./assets/images/isreal.png);
     background-size: 100%;
     background-position: center;
-    transition: ease-out;
+    z-index: 100;
+    transition: transform 0.5s ease-out
 }
 
 @keyframes roll {
@@ -66,7 +67,11 @@ body,
 
 #yahu {
     max-width: 30%;
-    animation: roll 7s infinite;
+    animation: roll 7s;
+}
+
+#splash.rulletOp {
+    transform: translateY(-100vh);
 }
 
 #page1 {
