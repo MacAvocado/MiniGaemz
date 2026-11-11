@@ -47,7 +47,7 @@ body,
     background-size: 100%;
     background-position: center;
     z-index: 100;
-    transition: transform 0.5s ease-out
+    transition: transform 0.7s ease-out
 }
 
 @keyframes roll {
@@ -76,6 +76,9 @@ body,
 
 #page1 {
     grid-template-rows: 1fr 3fr;
+    background-image: url(./assets/images/isreal_map.png);
+    background-size: 100%;
+    background-position: center;
 }
 
 #page1 .bottom {
@@ -90,7 +93,7 @@ body,
 }
 
 #page1 .bottom .right .leaderboard {
-    background-color: #4196e5;
+    background-color: rgba(19, 111, 197, 1);
     border-radius: 1rem;
     margin: 1rem;
     padding: 1rem;
@@ -108,4 +111,10 @@ body,
 .startbtn {
     height: 60%;
     width: 60%;
+    background-color: whitesmoke;
+    border-radius: 0.7rem;
+}
+
+#logo{
+    background-color: whitesmoke;
 }
