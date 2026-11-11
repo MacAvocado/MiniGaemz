@@ -5,12 +5,17 @@ var timeInGame =21000
 function setup(){
 }
 
-function startTtT(){
+function draw(){
+    if(currentPage){
+
+    }
+}
+
+function startCaK(){
     shiftPage("#page2")
     select("#page2").appendChild(canvas)
     while(i<timeInGame){
-        draw()
-
+        
         i++
     }
 }
