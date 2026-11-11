@@ -1,5 +1,6 @@
 var canvas = select("#defaultCanvas0")
 var timeInGame =21000
+currentPage="#page1"
 
 //P5 setup() bliver kaldt EN gang før siden vises 
 function setup(){
