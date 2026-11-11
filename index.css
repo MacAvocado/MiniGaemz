@@ -19,6 +19,10 @@ body,
     display: grid;
     place-items: center;
     position: fixed;
+    left: -100vw;
+}
+
+.show{
     left: 0;
 }
 
@@ -36,6 +40,12 @@ body,
 
 .right{
     display: grid;
+}
+
+#splash{
+    background-image: url(./assets/images/isreal.png);
+    background-size: 100%;
+    background-position: center;
 }
 
 #page1{
