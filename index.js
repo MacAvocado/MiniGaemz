@@ -5,7 +5,7 @@ var timeInGame =21000
 function setup(){
     setTimeout(()=>{
         select('#splash').addClass('rulletOp')
-    },7000)
+    },5000)
 
 }
 
